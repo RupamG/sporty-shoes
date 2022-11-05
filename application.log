@@ -1,0 +1,35 @@
+2022-11-05 21:57:56.804  INFO 10715 --- [main] com.api.sportyShoes.SportyShoes          : Starting SportyShoes on rupams-MacBook-Air.local with PID 10715 (/Users/macbook/Desktop/simplilearn/project-3/sporty-shoes/target/classes started by macbook in /Users/macbook/Desktop/simplilearn/project-3/sporty-shoes)
+2022-11-05 21:57:56.822  INFO 10715 --- [main] com.api.sportyShoes.SportyShoes          : No active profile set, falling back to default profiles: default
+2022-11-05 21:57:59.424  INFO 10715 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-05 21:57:59.596  INFO 10715 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138ms. Found 2 JPA repository interfaces.
+2022-11-05 21:58:01.019  INFO 10715 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 4000 (http)
+2022-11-05 21:58:01.043  INFO 10715 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-05 21:58:01.044  INFO 10715 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-11-05 21:58:01.226  INFO 10715 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-05 21:58:01.228  INFO 10715 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4223 ms
+2022-11-05 21:58:01.334  INFO 10715 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-05 21:58:01.908  INFO 10715 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-05 21:58:01.925  INFO 10715 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testdb'
+2022-11-05 21:58:02.347  INFO 10715 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-05 21:58:02.589  INFO 10715 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2022-11-05 21:58:03.097  INFO 10715 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-11-05 21:58:03.541  INFO 10715 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-05 21:58:05.249  INFO 10715 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-05 21:58:05.269  INFO 10715 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-05 21:58:05.398  WARN 10715 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-05 21:58:07.808  INFO 10715 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@232be28d, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fba492e, org.springframework.security.web.header.HeaderWriterFilter@2210af14, org.springframework.security.web.authentication.logout.LogoutFilter@7dda5b25, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1d884a19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17635531, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bc4ac3e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69c6e5, org.springframework.security.web.session.SessionManagementFilter@35198da3, org.springframework.security.web.access.ExceptionTranslationFilter@7bdf8c92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ec1b776]
+2022-11-05 21:58:07.857  INFO 10715 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-05 21:58:08.101  INFO 10715 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-05 21:58:08.463  INFO 10715 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-05 21:58:08.516  INFO 10715 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-05 21:58:08.592  INFO 10715 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-05 21:58:08.973  INFO 10715 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 4000 (http) with context path ''
+2022-11-05 21:58:08.978  INFO 10715 --- [main] com.api.sportyShoes.SportyShoes          : Started SportyShoes in 13.806 seconds (JVM running for 16.275)
+2022-11-05 21:58:19.760  INFO 10715 --- [http-nio-4000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-05 21:58:19.763  INFO 10715 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-05 21:58:19.792  INFO 10715 --- [http-nio-4000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2022-11-05 21:58:44.358  INFO 10715 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-11-05 21:58:44.365  INFO 10715 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-05 21:58:44.366  INFO 10715 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-11-05 21:58:44.384  INFO 10715 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-05 21:58:44.386  INFO 10715 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
